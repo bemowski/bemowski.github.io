@@ -22,6 +22,14 @@ time in 172s, the whole cherokee family - Arrow, Turbo Arrow, Archer, 235;
 Grumman Tiger, Rockwell Commander.  I'm happy to fly just about anything 
 with 2 seats and a motor.
 
+### N38636
+
+My baby the past few years.  To quote Han Solo, "She may not be pretty, 
+but she's got it where it counts."
+
+[FlightAware](flightaware.com/live/flight/N38636)
+
+
 ## Software Stuff
 
 I'm formally trained as a real engineer, but haven't done that in a long time.
