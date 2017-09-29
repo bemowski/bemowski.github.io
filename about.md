@@ -24,8 +24,8 @@ with 2 seats and a motor.
 
 ### N38636
 
-My baby the past few years.  To quote Han Solo, "She may not be pretty, 
-but she's got it where it counts."
+"She may not be pretty, but she's got it where it counts."
+ - Han Solo
 
 [FlightAware](flightaware.com/live/flight/N38636)
 
