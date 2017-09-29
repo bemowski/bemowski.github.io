@@ -6,11 +6,11 @@ permalink: /about/
 
 Fourty-something software engineer moonlighting as a flight instructor.  
 
-### Pilot Stuff
+## Pilot Stuff
 
 Commercial Pilot ASEL, CFI/CFII.  
 
-## Teaching
+### Teaching
 
 I teach actively - usually carrying a couple students.
 
@@ -22,12 +22,14 @@ time in 172s, the whole cherokee family - Arrow, Turbo Arrow, Archer, 235;
 Grumman Tiger, Rockwell Commander.  I'm happy to fly just about anything 
 with 2 seats and a motor.
 
-### Software Stuff
+## Software Stuff
 
 I'm formally trained as a real engineer, but haven't done that in a long time.
 
 These day I still enjoy Java, devops in AWS - and related BS.
 
 ### Contact me
+
+Hit me up about flying or software, or whatever.
 
 [bemowski@gmail.com](mailto:bemowski@gmail.com)
