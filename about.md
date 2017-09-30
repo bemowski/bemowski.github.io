@@ -28,7 +28,7 @@ with 2 seats and a motor.
 
  \- Han Solo
 
-[FlightAware](flightaware.com/live/flight/N38636)
+[FlightAware](http://flightaware.com/live/flight/N38636)
 
 
 ## Software Stuff
