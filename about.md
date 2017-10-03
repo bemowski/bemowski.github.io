@@ -8,7 +8,9 @@ Fourty-something software engineer moonlighting as a flight instructor.
 
 ## Pilot Stuff
 
-Commercial Pilot ASEL, CFI/CFII.  
+Commercial Pilot ASEL, CFI/CFII.  I keep this somwhat up-to-date:
+
+[Pilot Resume: Paul Bemowski](https://docs.google.com/document/d/1PU08dAQxJoH1akNWK6uz-RmtGLRG79uQo3K5vsOlWiA)
 
 ### Teaching
 

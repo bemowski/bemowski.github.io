@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Search EC2 Instances by Tag:Name
+tags: aws
 ---
 
 Constantly navigating the console to find very specific bits of information can 
@@ -12,10 +13,9 @@ Here is a CLI query to search by Tag:Name, and format the output nicely as a tab
 ```
 aws --profile devops --region us-east-1 \
     ec2 describe-instances \
-    --filters "Name=tag:Name,Values=*bemo*" 
-    --query 'Reservations[*].Instances[*].\
-             {Name:Tags[?Key==`Name`].Value|[0],
-              Type:InstanceType,State:State.Name,PrivateIp:PrivateIpAddress}' 
+    --filters "Name=tag:Name,Values=*bemo*" \
+    --query \
+'Reservations[*].Instances[*].{Name:Tags[?Key==`Name`].Value|[0],Type:InstanceType,State:State.Name,PrivateIp:PrivateIpAddress}' \
     --output table
 ---------------------------------------------------------------------------------
 |                               DescribeInstances                               |
