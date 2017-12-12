@@ -28,4 +28,6 @@ aws --profile devops --region us-east-1 \
 +-----------------------------------+------------------+----------+-------------+
 ```
 
+12/12/17 UPDATE: 
 
+Recently found a tool called 'awless' - which is much easier than the awscli scripts above.  
