@@ -30,15 +30,15 @@ At first glance, it seems straightforward.  Just disable all traffic to the node
 in the redis cluster using iptables.  A quick script helps us find the IP 
 addresses of the nodes, and block them one at a time:
 
-```
-for ip in $(nslookup elasticache.somewhere.aws.company.net|grep Address|grep -v \#53|cut -d\  -f 2)
-do
-        echo "disabling access to $ip"
-        iptables -A INPUT -s $ip -j DROP
-        iptables -A OUTPUT -d $ip -j DROP
-done
-sudo iptables -S
-```
+
+	for ip in $(nslookup elasticache.somewhere.aws.company.net|grep Address|grep -v \#53|cut -d\  -f 2)
+	do
+	        echo "disabling access to $ip"
+	        iptables -A INPUT -s $ip -j DROP
+	        iptables -A OUTPUT -d $ip -j DROP
+	done
+	sudo iptables -S
+	
 
 This should block all traffic to/from the IPs of the redis cluster nodes.  
 Obviously.
@@ -57,11 +57,11 @@ The real answer was found here:
 
 
 Disable all access to the redis port on the docker network: 
-```
-sudo iptables -I DOCKER-USER -i eth0 -p tcp -m tcp --sport 6379 -j DROP
-```
+
+    sudo iptables -I DOCKER-USER -i eth0 -p tcp -m tcp --sport 6379 -j DROP
+
 
 To re-enable access to the redis port on the docker network:
-```
-sudo iptables -D DOCKER-USER -i eth0 -p tcp -m tcp --sport 6379 -j DROP
-```
+
+    sudo iptables -D DOCKER-USER -i eth0 -p tcp -m tcp --sport 6379 -j DROP
+
